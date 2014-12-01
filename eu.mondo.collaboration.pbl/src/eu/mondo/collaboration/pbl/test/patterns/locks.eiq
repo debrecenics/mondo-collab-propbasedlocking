@@ -1,0 +1,21 @@
+package eu.mondo.collaboration.pbl.test.patterns
+
+import "http://WTSpec/2.0"
+import "http://www.example.org/lockModel"
+
+pattern lockInputsForSubsystem(ss : Subsystem, input : WTCInput) {
+	LockSubSystem.subsystems(_,ss);
+	find relatedCtrlUnit45(ss, cu);
+	CtrlUnit45.Input__iInput(cu,input);
+}
+
+private pattern subSystems(parent : Subsystem, child : Subsystem) {
+	Subsystem.itsSubsystems(parent,child);
+}
+
+private pattern relatedCtrlUnit45(ss : Subsystem, cu : CtrlUnit45) {
+	Subsystem.itsWTCs(ss,cu);
+} or {
+	find subSystems+(ss, inner);
+	Subsystem.itsWTCs(inner,cu);
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_rD-0kHGGEeSxU8fflkGmNw" selectedViews="_rnJzEHGGEeSxU8fflkGmNw" version="8.1.1">
+  <models xmi:type="ecore:EPackage" href="eu.mondo.collaboration.pbl.lockmodel.ecore#/"/>
+  <models xmi:type="genmodel:GenModel" href="eu.mondo.collaboration.pbl.lockmodel.genmodel#/"/>
+  <models xmi:type="genmodel:GenModel" href="platform:/resource/IkerLanWT/model/WTSpec2.0.genmodel#/"/>
+  <models xmi:type="ecore:EPackage" href="platform:/resource/IkerLanWT/model/WTSpec2.0.ecore#_sQsUEBaMEd-hGP05l0in9g"/>
+  <models xmi:type="ecore:EPackage" href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_rnJzEHGGEeSxU8fflkGmNw" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_r0tG4HGGEeSxU8fflkGmNw" name="eu.mondo.collaboration.pbl.lockmodel class diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_r2pnoHGGEeSxU8fflkGmNw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_r2pnoXGGEeSxU8fflkGmNw" type="Sirius" element="_r0tG4HGGEeSxU8fflkGmNw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_twPmgHGGEeSxU8fflkGmNw" type="2003" element="_tu5isHGGEeSxU8fflkGmNw">
+            <children xmi:type="notation:Node" xmi:id="_twPmg3GGEeSxU8fflkGmNw" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_twYwcHGGEeSxU8fflkGmNw" type="7004">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_twYwcXGGEeSxU8fflkGmNw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_twYwcnGGEeSxU8fflkGmNw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_twPmgXGGEeSxU8fflkGmNw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_twPmgnGGEeSxU8fflkGmNw" x="260" y="95" width="120" height="8"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_r2pnonGGEeSxU8fflkGmNw"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_tu5isHGGEeSxU8fflkGmNw" name="LockSubSystem" tooltipText="" width="12" height="10">
+        <target xmi:type="ecore:EClass" href="eu.mondo.collaboration.pbl.lockmodel.ecore#//LockSubSystem"/>
+        <semanticElements xmi:type="ecore:EClass" href="eu.mondo.collaboration.pbl.lockmodel.ecore#//LockSubSystem"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tu5isXGGEeSxU8fflkGmNw" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tu5isnGGEeSxU8fflkGmNw"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tu5is3GGEeSxU8fflkGmNw"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tu5itHGGEeSxU8fflkGmNw" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tu5itXGGEeSxU8fflkGmNw" red="255" green="252" blue="216"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_r0tG5XGGEeSxU8fflkGmNw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="ecore:EPackage" href="eu.mondo.collaboration.pbl.lockmodel.ecore#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
